@@ -8,6 +8,12 @@ html{
     scroll-behavior: smooth;
 }
 
+@media(prefers-reduced-motion){
+    html{
+        scroll-behavior: initial;
+    }
+}
+
 body{
     margin: 0 auto;
     padding: 0;
