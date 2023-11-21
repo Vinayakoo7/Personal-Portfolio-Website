@@ -107,7 +107,22 @@ img , video {
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     grid-gap: 0.5rem;
     grid-auto-rows: 300px;
+}
 
+.gallery-item{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery-img{
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.gallery-img:hover{
+    transform: scale(1.5);
 }
 
 /* Add Media Queries for Large Screens */
@@ -124,7 +139,21 @@ img , video {
     .hero-text-box{
         padding: 2rem;
     }
+    .portfolio-container h1{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .portfolio-container{
+        max-width: 1400px;
+    }
+    .portfolio-container h1{
+        font-size: 4rem;
+        line-height: 4rem;
+    }
 }
+
+
+
 
 @media (min-width: 920px){
     .hero-heading{
