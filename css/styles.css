@@ -19,7 +19,6 @@ body{
     padding: 0;
     min-height: 100%;
     max-width: 100%;
-    padding: 8rem;
 }
 *, *::before, *::after{
     box-sizing: inherit;
@@ -322,7 +321,7 @@ img , video {
         line-height: 6rem;
     }
     .hero-box{
-        margin-top: -8rem;
+        margin-top: 0rem;
     }
 
     .portfolio-container, .about-container{
