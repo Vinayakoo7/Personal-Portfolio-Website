@@ -143,21 +143,19 @@ img , video {
         font-size: 3rem;
         line-height: 3rem;
     }
+    
+}
+
+@media (min-width: 920px){
+    .hero-heading{
+        font-size: 6rem;
+        line-height: 6rem;
+    }
     .portfolio-container{
         max-width: 1400px;
     }
     .portfolio-container h1{
         font-size: 4rem;
         line-height: 4rem;
-    }
-}
-
-
-
-
-@media (min-width: 920px){
-    .hero-heading{
-        font-size: 6rem;
-        line-height: 6rem;
     }
 }
