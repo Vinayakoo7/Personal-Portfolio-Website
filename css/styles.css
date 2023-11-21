@@ -321,7 +321,7 @@ img , video {
         line-height: 6rem;
     }
     .hero-box{
-        margin-top: 0rem;
+        margin-top: -8rem;
     }
 
     .portfolio-container, .about-container{
