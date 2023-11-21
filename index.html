@@ -5,6 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/glightbox.min.css">
     <title>My Portfolio</title>
 </head>
 <body>
@@ -19,5 +20,45 @@
         </section>
     </header>
     <!--End Hero Header-->
+
+    <!--Begin Portfolio-->
+<section class="portfolio-container">
+    <h1>Portfolio</h1>
+    <section class="portfolio-gallery">
+        <div class="gallery-item">
+            <a href="media/Boat.JPG" class="glightbox"></a>
+            <img src="media/Boat.JPG" alt="Boat" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <a href="media/cars_road.jpg" class="glightbox"></a>
+            <img src="media/cars_road.jpg" alt="Car racing" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <a href="media/galaxy.jpg" class="glightbox"></a>
+            <img src="media/galaxy.jpg" alt="galaxy background portrait" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <a href="media/ME.JPG" class="glightbox"></a>
+            <img src="media/ME.JPG" alt="Vinayak Sivaprasad" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <a href="media/pana.JPG" class="glightbox"></a>
+            <img src="media/pana.JPG" alt="Panaroma" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <a href="media/Panaroma 2019.JPG" class="glightbox"></a>
+            <img src="media/Panaroma 2019.JPG" alt="Panaroma" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <a href="media/Tesla_Abu.jpg" class="glightbox"></a>
+            <img src="media/Tesla_Abu.jpg" alt="Tesla abu dhabi" class="gallery-img">
+        </div>
+
+    </section>
+</section>
+    <!--End Portfolio-->
+<script src="js/glightbox.min.js"></script>
+<script type="text/javascript">
+    const lightbox= Glightbox({loop: true});</script>
 </body>
 </html>

@@ -92,6 +92,22 @@ img , video {
     color: white;
 }
 
+/* Portfolio gallery styles */
+.portfolio-container{
+    margin: 1rem auto 0 auto;
+}
+
+.portfolio-container h1{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+/.portfolio-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap
+}
+
 /* Add Media Queries for Large Screens */
 
 @media (min-width: 600px){
