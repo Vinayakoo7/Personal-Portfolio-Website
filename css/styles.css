@@ -126,7 +126,37 @@ html {
         padding-bottom: 20px; /* Adjust the value as needed */
     }
       
-    
+    .site-footer {
+        background-color: #333;
+        color: #fff;
+        padding: 2rem 0;
+        text-align: center;
+      }
+      
+      .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+      }
+      
+      .footer-links {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footer-links li {
+        display: inline-block;
+        margin: 0 0.5rem;
+      }
+      
+      .footer-links a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .footer-links a:hover {
+        text-decoration: underline;
+      }
     
     /* Top Navbar Only Styles */
     

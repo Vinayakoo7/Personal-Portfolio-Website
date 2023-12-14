@@ -195,6 +195,19 @@
 
 <!-- End of Projectss -->
 
+<!-- Start of Footer -->
+<footer class="site-footer">
+    <div class="footer-content">
+      <p>© 2024 Vinayak Sivaprasad. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </footer>
+<!-- End of Footer -->
+
 <script>
     document.addEventListener("DOMContentLoaded", function () {
     window.onscroll = function () {
@@ -205,9 +218,9 @@
         var navBar = document.getElementById("top-nav-bar");
 
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            navBar.style.background=transeparent;
+            navBar.style.background=transparent;
         } else {
-            navBar.style.background = "none";
+            navBar.style.background = "initial";
         }
     }
     // Trigger scroll function on page load to set initial background color
