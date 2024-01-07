@@ -340,21 +340,56 @@ video {
   display: grid;
   grid-template-columns: 1fr;
   margin: 6rem auto 0 auto;
+  margin-bottom: 20px;
+}
+.about-container2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 6rem auto 0 auto;
+  margin-top: 20px;
 }
 
 .about-text {
   margin: 0 auto;
   padding: 0 1rem;
+  
+}
+
+.about-text2 {
+  margin: 0 auto;
+  padding: 0 1rem;
+  
 }
 
 .about-text h1 {
   font-size: 2rem;
   line-height: 2rem;
 }
+.about-text h2 {
+  font-size: 2rem;
+  line-height: 2rem;
+  text-decoration: underline;
+
+}
+
+.about-text2 h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
 
 .about-image img {
+  height:fit-content;
+  object-fit: contain;
+  float: right;
+  margin-right: -3.73rem; /* remove right margin */
+  padding-right: 0; /* remove right padding */
+
+}
+
+.about-image2 img {
   height: 70%;
   object-fit: contain;
+  float: left;
 }
 
 .about-social {
@@ -367,13 +402,36 @@ video {
   padding: 0 4rem 1rem 0rem;
   font-size: xx-large;
 }
+.about-badges {
+  display: flex;
+  justify-content: flex-start;
+  width: 172px;
+  height: 172px;
+  margin-left: -1rem;
+  margin-top: 3rem;
+}
+
+.about-badges a {
+  color: white;
+  padding: 0 4rem 1rem 0rem;
+  
+}
+
 
 .section-stop {
   scroll-margin-top: 7rem;
+  margin-bottom: 20px;
+}
+
+.section-stop2 {
+  scroll-margin-top: 7rem;
+  margin-top: 20px;
 }
 
 .mailto-link {
   color: white;
+  text-decoration: none;
+
 }
 
 /* Style for the projects section */
@@ -421,13 +479,29 @@ video {
   .about-text h1 {
     font-size: 3rem;
     line-height: 3rem;
+    
+  }
+
+  .about-text2 h1 {
+    font-size: 3rem;
+    line-height: 3rem;
   }
 
   .about-container {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
+    margin-bottom: 20px;
   }
+  .about-container2 {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 20px;
+  }  
   .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+  .about-text2 p {
     font-size: 1.1rem;
     line-height: 1.5rem;
   }
@@ -444,6 +518,11 @@ video {
   }
   .section-stop {
     scroll-margin-top: 9rem;
+    margin-bottom: 20px;
+  }
+  .section-stop2 {
+    scroll-margin-top: 9rem;
+    
   }
 }
 
@@ -460,6 +539,12 @@ video {
   .portfolio-container,
   .about-container {
     max-width: 1400px;
+    margin-bottom: 20px;
+  }
+
+  .about-container2 {
+    max-width: 1400px;
+    margin-top: 20px;
   }
 
   .portfolio-container h1,
@@ -469,6 +554,15 @@ video {
   }
 
   .about-text p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .about-text2 h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .about-text2 p {
     font-size: 1.5rem;
     line-height: 2rem;
   }
