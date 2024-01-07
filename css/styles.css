@@ -252,6 +252,29 @@ video {
   color: white;
 }
 
+.heading-pp {
+  text-align: left;
+  text-decoration: underline;
+
+  font-size: 3rem;
+  line-height: 3rem;
+  letter-spacing: 0.05rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.home-button-pp {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3rem;
+  letter-spacing: 0.05rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: white;
+}
+
 .hero-text {
   font-size: 1rem;
   margin-top: 0.5rem;
