@@ -24,7 +24,7 @@
   
   #Tech-Stack {
     /* Set the background color and padding for the section */
-    background-color: white
+    background-color: white;
     padding: 20px;
   }
   
@@ -73,7 +73,7 @@
     align-items: center;
     flex: 1 0 auto; /* This allows the item to grow and shrink as needed, but not shrink below its content's size */
     margin: 10px; /* Add some margin around the items */
-}
+
   }
   
   .tech-item i {
