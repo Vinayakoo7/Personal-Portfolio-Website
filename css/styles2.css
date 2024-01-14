@@ -6,6 +6,21 @@
     font-family: "Courier New", Courier, monospace;
 
   }
+
+  .profile-pic {
+    width: 15%; /* adjust as needed */
+    height: auto; /* maintain aspect ratio */
+    object-fit: cover; /* ensures the image covers the whole area */
+    display: block; /* necessary for centering the image */
+    margin: 0 auto; /* centers the image horizontally */
+  }
+  
+  /* Adjust the image size for smaller screens */
+  @media screen and (max-width: 600px) {
+    .profile-pic {
+      width: 70%; /* adjust as needed */
+    }
+  }
   
   #Tech-Stack {
     /* Set the background color and padding for the section */
