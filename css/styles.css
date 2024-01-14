@@ -336,103 +336,7 @@ video {
 
 /* About Styles */
 
-.about-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 6rem auto 0 auto;
-  margin-bottom: 20px;
-}
-.about-container2 {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 6rem auto 0 auto;
-  margin-top: 20px;
-}
 
-.about-text {
-  margin: 0 auto;
-  padding: 0 1rem;
-  
-}
-
-.about-text2 {
-  margin: 0 auto;
-  padding: 0 1rem;
-  
-}
-
-.about-text h1 {
-  font-size: 2rem;
-  line-height: 2rem;
-}
-.about-text h2 {
-  font-size: 2rem;
-  line-height: 2rem;
-  text-decoration: underline;
-
-}
-
-.about-text2 h1 {
-  font-size: 2rem;
-  line-height: 2rem;
-}
-
-.about-image img {
-  height:fit-content;
-  object-fit: contain;
-  float: right;
-  margin-right: -3.73rem; /* remove right margin */
-  padding-right: 0; /* remove right padding */
-
-}
-
-.about-image2 img {
-  height: 70%;
-  object-fit: contain;
-  float: left;
-}
-
-.about-social {
-  display: flex;
-  justify-content: start;
-}
-
-.about-social a {
-  color: white;
-  padding: 0 4rem 1rem 0rem;
-  font-size: xx-large;
-}
-.about-badges {
-  display: flex;
-  justify-content: flex-start;
-  width: 172px;
-  height: 172px;
-  margin-left: -1rem;
-  margin-top: 3rem;
-}
-
-.about-badges a {
-  color: white;
-  padding: 0 4rem 1rem 0rem;
-  
-}
-
-
-.section-stop {
-  scroll-margin-top: 7rem;
-  margin-bottom: 20px;
-}
-
-.section-stop2 {
-  scroll-margin-top: 7rem;
-  margin-top: 20px;
-}
-
-.mailto-link {
-  color: white;
-  text-decoration: none;
-
-}
 
 /* Style for the projects section */
 .projects-section {
@@ -475,27 +379,41 @@ video {
     padding: 2rem;
   }
 
-  .portfolio-container h1,
-  .about-text h1 {
+  .portfolio-container h1/*,
+  .about-text h1*/{ 
     font-size: 3rem;
     line-height: 3rem;
     
   }
 
-  .about-text2 h1 {
+  /* .about-text2 h1 {
     font-size: 3rem;
     line-height: 3rem;
-  }
+  } */
 
-  .about-container {
-    grid-template-columns: 1fr 1fr;
+  /*.about-container {
+    /* grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     margin-bottom: 20px;
-  }
-  .about-container2 {
-    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    display: flex; /
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }*/
+  /*.about-container2 {
+    /* grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     margin-top: 20px;
+    margin-left: auto; /
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
   }  
   .about-text p {
     font-size: 1.1rem;
@@ -504,7 +422,7 @@ video {
   .about-text2 p {
     font-size: 1.1rem;
     line-height: 1.5rem;
-  }
+  }*/
   .nav-bar {
     line-height: 1.5rem;
     padding: 0 4rem;
@@ -516,14 +434,32 @@ video {
     flex: 1 1;
     padding: 0 0.2rem;
   }
-  .section-stop {
-    scroll-margin-top: 9rem;
+  /*.section-stop {
+    /* scroll-margin-top: 9rem;
     margin-bottom: 20px;
+    margin-left: auto; /
+    max-width: 1400px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+
   }
   .section-stop2 {
-    scroll-margin-top: 9rem;
-    
-  }
+    /* scroll-margin-top: 9rem;
+    margin-left: auto; /
+    max-width: 1400px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }*/
 }
 
 @media (min-width: 920px) {
@@ -536,24 +472,36 @@ video {
     margin-top: -8rem;
   }
 
-  .portfolio-container,
-  .about-container {
+  .portfolio-container/*,
+  .about-container */{
     max-width: 1400px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
   }
 
-  .about-container2 {
+  /* .about-container2 {
     max-width: 1400px;
     margin-top: 20px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  } */
 
-  .portfolio-container h1,
-  .about-text h1 {
+  .portfolio-container h1/*,
+  .about-text h1*/ {
     font-size: 4rem;
     line-height: 4rem;
   }
 
-  .about-text p {
+  /* .about-text p {
     font-size: 1.5rem;
     line-height: 2rem;
   }
@@ -565,7 +513,7 @@ video {
   .about-text2 p {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
+  } */
 
   .nav-bar {
     justify-content: space-between;

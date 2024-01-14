@@ -1,0 +1,168 @@
+/* CSS code for the HTML code */
+
+* {
+    /* Set the box-sizing property for all elements */
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+
+  }
+  
+  #Tech-Stack {
+    /* Set the background color and padding for the section */
+    background-color: white
+    padding: 20px;
+  }
+  
+  .about-text {
+    /* Set the font family, size, and color for the text */
+    font-size: 18px;
+    color: white;
+    /* Set the text alignment to center */
+    text-align: center;
+  }
+  
+  .about-text h1 {
+    /* Set the font size, weight, and color for the h1 heading */
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+  }
+  
+
+  
+  .about-text p {
+    /* Set the line height and margin for the paragraphs */
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  .tech-stack {
+    /* Set the display and alignment for the tech stack div */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tech-item {
+    /* Set the margin, padding, border, and size for each tech item */
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid #cccccc; */
+    width: 100px;
+    height: 100px;
+    /* Set the display and alignment for each tech item */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tech-item i {
+    /* Set the font size and color for the icons */
+    font-size: 48px;
+    color: white;
+  }
+  
+  .tech-item span {
+    /* Set the font size and color for the text */
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .section {
+    /* Set the margin and padding for each section */
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  .section-content {
+    /* Set the display and alignment for the section content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #badges {
+    /* Set the display and alignment for the badges div */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-badges {
+    /* Set the display and alignment for each row of badges */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-badges img {
+    /* Set the margin and size for each badge image */
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Use media queries to optimize the layout for different screen sizes */
+  
+  @media only screen and (max-width: 600px) {
+    /* For small screens, reduce the font size and width of the tech items */
+    .about-text h1 {
+      font-size: 24px;
+    }
+  
+    .about-text h2 {
+      font-size: 18px;
+    }
+  
+    .tech-item {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .tech-item i {
+      font-size: 36px;
+    }
+  
+    .tech-item span {
+      font-size: 14px;
+    }
+  
+    .about-badges img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    /* For medium screens, reduce the font size and width of the tech items */
+    .about-text h1 {
+      font-size: 30px;
+    }
+  
+    .about-text h2 {
+      font-size: 20px;
+    }
+  
+    .tech-item {
+      width: 90px;
+      height: 90px;
+    }
+  
+    .tech-item i {
+      font-size: 42px;
+    }
+  
+    .tech-item span {
+      font-size: 15px;
+    }
+  
+    .about-badges img {
+      width: 90px;
+      height: 90px;
+    }
+  }
+  
