@@ -52,6 +52,11 @@ video {
   height: 6rem;
 }
 
+.mailto-link {
+  color: white;
+  text-decoration: none;
+}
+
 .logo,
 .nav-menu {
   text-transform: uppercase;
