@@ -45,7 +45,14 @@
     font-weight: bold;
     color: white;
   }
-  
+  .about-text h2 {
+    /* Set the font size, weight, and color for the h1 heading */
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+  }
+
 
   
   .about-text p {
@@ -81,6 +88,16 @@
     margin-right: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
+  }
+
+  .tech-item-badge {
+    width: 175px;
+    height: 175px;
+  }
+
+  .tech-item-badge2 {
+    width: 150px;
+    height: 150px;
   }
   
   .tech-item i {
