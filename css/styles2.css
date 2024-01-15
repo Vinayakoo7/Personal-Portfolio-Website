@@ -1,10 +1,7 @@
-/* CSS code for the HTML code */
-
 * {
     /* Set the box-sizing property for all elements */
     box-sizing: border-box;
     font-family: "Courier New", Courier, monospace;
-
   }
 
   .profile-pic {
@@ -25,7 +22,7 @@
   #Tech-Stack {
     /* Set the background color and padding for the section */
     background-color: white;
-    padding: 20px;
+    padding: 0px;
   }
   
   .about-text {
@@ -55,24 +52,21 @@
     /* Set the display and alignment for the tech stack div */
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
   }
   
   .tech-item {
-    /* Set the margin, padding, border, and size for each tech item */
-    margin: 10px;
-    padding: 10px;
-    /* border: 1px solid #cccccc; */
-    width: 100px;
-    height: 100px;
-    /* Set the display and alignment for each tech item */
-    display: flex;
+  
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex: 1 0 auto; /* This allows the item to grow and shrink as needed, but not shrink below its content's size */
-    margin: 10px; /* Add some margin around the items */
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
 
   }
   
@@ -139,6 +133,8 @@
     .tech-item {
       width: 80px;
       height: 80px;
+      flex: 1 0 auto; /* This allows the item to grow and shrink as needed, but not shrink below its content's size */
+
     }
   
     .tech-item i {
@@ -183,4 +179,32 @@
       height: 90px;
     }
   }
+
+  @media only screen and (min-width: 901px) {
+    /* For large screens, adjust the font size and width of the tech items */
+    .about-text h1 {
+      font-size: 36px;
+    }
   
+    .about-text h2 {
+      font-size: 24px;
+    }
+  
+    .tech-item {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .tech-item i {
+      font-size: 48px;
+    }
+  
+    .tech-item span {
+      font-size: 18px;
+    }
+  
+    .about-badges img {
+      width: 100px;
+      height: 100px;
+    }
+  }

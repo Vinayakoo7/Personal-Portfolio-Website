@@ -339,10 +339,6 @@ video {
   transform: scale(1.5);
 }
 
-/* About Styles */
-
-
-
 /* Style for the projects section */
 .projects-section {
   margin-top: -200px;
@@ -384,50 +380,10 @@ video {
     padding: 2rem;
   }
 
-  .portfolio-container h1/*,
-  .about-text h1*/{ 
+  .portfolio-container h1 { 
     font-size: 3rem;
     line-height: 3rem;
-    
   }
-
-  /* .about-text2 h1 {
-    font-size: 3rem;
-    line-height: 3rem;
-  } */
-
-  /*.about-container {
-    /* grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    margin-bottom: 20px;
-    margin-left: auto;
-    display: flex; /
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-  }*/
-  /*.about-container2 {
-    /* grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    margin-top: 20px;
-    margin-left: auto; /
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-  }  
-  .about-text p {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-  }
-  .about-text2 p {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-  }*/
   .nav-bar {
     line-height: 1.5rem;
     padding: 0 4rem;
@@ -439,32 +395,6 @@ video {
     flex: 1 1;
     padding: 0 0.2rem;
   }
-  /*.section-stop {
-    /* scroll-margin-top: 9rem;
-    margin-bottom: 20px;
-    margin-left: auto; /
-    max-width: 1400px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-
-  }
-  .section-stop2 {
-    /* scroll-margin-top: 9rem;
-    margin-left: auto; /
-    max-width: 1400px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-  }*/
 }
 
 @media (min-width: 920px) {
@@ -477,8 +407,7 @@ video {
     margin-top: -8rem;
   }
 
-  .portfolio-container/*,
-  .about-container */{
+  .portfolio-container {
     max-width: 1400px;
     margin-bottom: 20px;
     display: flex;
@@ -489,37 +418,10 @@ video {
     margin: 0 auto;
   }
 
-  /* .about-container2 {
-    max-width: 1400px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-  } */
-
-  .portfolio-container h1/*,
-  .about-text h1*/ {
+  .portfolio-container h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
-
-  /* .about-text p {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-  .about-text2 h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
-
-  .about-text2 p {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  } */
-
   .nav-bar {
     justify-content: space-between;
     padding: 2rem 5rem;
