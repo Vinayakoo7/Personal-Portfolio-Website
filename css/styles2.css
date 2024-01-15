@@ -19,12 +19,18 @@
     }
   }
   
+  .Cert{
+    width: 52%;
+    height: 535px;
+  }
+
   #Tech-Stack {
     /* Set the background color and padding for the section */
     background-color: white;
     padding: 0px;
   }
   
+
   .about-text {
     /* Set the font family, size, and color for the text */
     font-size: 18px;
